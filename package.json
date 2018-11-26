@@ -1,0 +1,14 @@
+{
+  "name": "nubank-info",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "elm-live src/Main.elm --open --dir=public -- --debug --output=public/nubank.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "elm-live": "^3.2.3"
+  }
+}
